@@ -456,7 +456,7 @@
 				testing = false;
 				setTimeout( nextProblem, 1000 );
 			} else if ( timesUp ) {
-				answer = ''+(currentProblem[0] * currentProblem[1]);
+				answer = ''+(currentProblem[0] + currentProblem[1]);
 				mark( currentProblem, false );
 				renderMastery(currentProblem);
 				renderAnswer( false );
